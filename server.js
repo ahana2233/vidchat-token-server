@@ -35,6 +35,11 @@ app.get("/get-token", async (req, res) => {
   }
 });
 
+// ✅ This fixes "Cannot GET /"
+app.get("/", (req, res) => {
+  res.send("🟢 100ms token server is up and running!");
+});
+
 app.listen(3000, () => {
   console.log("✅ Token server running at http://localhost:3000");
 });
