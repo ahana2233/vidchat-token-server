@@ -1,0 +1,28 @@
+{
+  "name": "100ms_token_server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahana2233/vidchat-token-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ahana2233/vidchat-token-server/issues"
+  },
+  "homepage": "https://github.com/ahana2233/vidchat-token-server#readme",
+  "description": ""
+}
